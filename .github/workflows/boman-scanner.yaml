@@ -27,4 +27,4 @@ jobs:
         env:
           APP: ${{ secrets.APP_TOKEN }}
           USER: ${{ secrets.CUSTOMER_TOKEN }}
-        run: sudo boman-cli -a run -at "61086d97-81ff-4de4-9779-19a552469b12" -ct "4c21d6a7-f519-40bf-9cc2-9f5377a44230"
+        run: sudo boman-cli -a run -at 61086d97-81ff-4de4-9779-19a552469b12 -ct 4c21d6a7-f519-40bf-9cc2-9f5377a44230
